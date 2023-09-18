@@ -6,7 +6,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-           Student student = new Student();
+           Student student = new Student("Simon",12,3.4);
             student.age = 14;
             student.age = 98;
             student.Name = "Test";
