@@ -47,7 +47,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             this.age = 16;
             this.GPA = GPA;
             Name = name;
+            IntroStudent();
 
+        }
+
+        public void IntroStudent()
+        {
+            Console.WriteLine($"Hello my name is{Name}, I am {age} yo and I my GPA is {GPA}");
         }
 
 
